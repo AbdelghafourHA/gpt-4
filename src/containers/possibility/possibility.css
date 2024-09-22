@@ -1,5 +1,6 @@
 .gpt4-possibility {
   display: flex;
+  overflow-x: hidden;
 }
 
 .gpt4-possibility-image {

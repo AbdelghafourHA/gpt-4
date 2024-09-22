@@ -8,7 +8,7 @@ import {
   Possibility,
   Wgpt4,
 } from "./containers";
-import { NavBar, Brand, CTA } from "./components";
+import { NavBar, Brand, Cta } from "./components";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Wgpt4 />
       <Features />
       <Possibility />
-      <CTA />
+      <Cta />
       <Blog />
       <Footer />
     </div>

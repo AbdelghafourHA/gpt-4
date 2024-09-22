@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./cta.css";
 import { motion, useInView } from "framer-motion";
 
-const CTA = () => {
+const Cta = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
@@ -28,4 +28,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Cta;

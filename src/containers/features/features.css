@@ -3,6 +3,7 @@
   gap: 4rem;
   justify-content: space-between;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .gpt4-features-heading {

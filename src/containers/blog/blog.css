@@ -1,6 +1,7 @@
 .gpt4-blog {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .gpt4-blog-heading {
