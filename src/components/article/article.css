@@ -1,0 +1,53 @@
+.gpt4-blog-article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt4-blog-article-image {
+  width: 100%;
+  height: 100%;
+}
+
+.gpt4-blog-article-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.gpt4-blog-article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  margin-top: -5px;
+  background-color: var(--color-footer);
+}
+
+.gpt4-blog-article-content p {
+  font-size: 11.6px;
+  font-weight: bold;
+  line-height: 35px;
+  color: white;
+}
+
+.gpt4-blog-article-content h3 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+.gpt4-blog-article-content p:last-child {
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .gpt4-blog-article-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

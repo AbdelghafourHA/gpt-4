@@ -1,0 +1,124 @@
+.gpt4-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--color-footer);
+}
+
+.gpt4-footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gpt4-footer-heading h1 {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+}
+
+.gpt4-footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.gpt4-footer-btn button {
+  border: 1px solid white;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  word-spacing: 2px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.gpt4-footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+}
+
+.gpt4-footer-links div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.gpt4-footer-links-logo h1 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.gpt4-footer-links-logo p {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 800;
+}
+
+.gpt4-footer-links-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.gpt4-footer-links-div h4 {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 1rem;
+}
+
+.gpt4-footer-links-div p {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.gpt4-footer-copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.gpt4-footer-copyright p {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0.5rem 0;
+}
+
+@media (max-width: 850px) {
+  .gpt4-footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gpt4-footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .gpt4-footer-links div {
+    margin: 1rem 0;
+  }
+
+  .gpt4-footer-btn button {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .gpt4-footer-heading h1 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}
